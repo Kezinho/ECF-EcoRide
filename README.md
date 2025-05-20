@@ -1,4 +1,4 @@
-Pour déployer le site en local, il faut ouvrir les fichiers en utilisant Visual Studio Code. Il est aussi nécessaire d'utiliser XAMPP avec les environnements Apache et MySQL.
+Pour déployer le site en local, il faut ouvrir les fichiers en utilisant Visual Studio Code. Il est aussi nécessaire d'utiliser XAMPP avec les environnements Apache et MySQL afin de pouvoir lire les fichiers .php (formulaires de connexion et d'inscription).
 
 Récupérez le dossier du projet depuis GitHub en le téléchargeant :
 https://github.com/kezinho/ECF-Ecoride.git
@@ -11,3 +11,5 @@ C:/xampp/htdocs/
 Créer la base de données : Ouvrez votre navigateur et allez sur : http://localhost/phpmyadmin Créez une base de données (ex. utilisateurs) et importez-y le fichier utilisateurs.sql.
 
 Lancer le projet dans le navigateur
+
+Lien du déploiement : https://ecfecoride.netlify.app/ 
