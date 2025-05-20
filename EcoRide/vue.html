@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style-vue.css" />
+    <title>Trajets disponibles</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img
+          class="logo"
+          src="/img/ChatGPT_Image_5_mai_2025__13_36_36-removebg-preview.png"
+        />
+
+        <div class="nav-menu">
+          <a href=""> Covoiturages </a>
+          <a href="/php/form.php"> Connexion </a>
+          <a href="/contact.html"> Contact </a>
+        </div>
+      </nav>
+    </header>
+
+    <section class="input-section">
+      <input type="text" class="depart-input" placeholder="Départ" />
+      <input type="text" class="arrivee-input" placeholder="Arrivée" />
+      <input type="date" class="date-input" placeholder="" />
+      <select name="passager" class="passager-input">
+        <option value="">Nombre de passagers</option>
+        <option value="1-passager">1 passager</option>
+        <option value="2-passagers">2 passagers</option>
+        <option value="3-passagers">3 passagers</option>
+        <option value="4-passagers">4 passagers</option>
+      </select>
+    </section>
+
+    <section class="tri">
+      <h1 class="tri-h1">Trier par</h1>
+      <div class="filtre">
+        <input type="checkbox" name="electric-car" id="electric-car" />
+        <label for="electric-car">Voiture électrique</label>
+      </div>
+
+      <div class="filtre">
+        <input type="checkbox" name="lowest-price" id="lowest-price" />
+        <label for="lowest-price">Prix le plus bas</label>
+      </div>
+
+      <div class="filtre">
+        <input type="checkbox" name="five-stars" id="five-stars" />
+        <label for="five-stars">5 étoiles</label>
+      </div>
+    </section>
+
+    <section class="trips">
+      <div class="horaires">
+        <p class="p-depart">08:00</p>
+        <p>12:00</p>
+      </div>
+
+      <div class="villes">
+        <p class="p-villeDpt">Nantes</p>
+        <p>Paris</p>
+      </div>
+
+      <img src="/img/man.png" alt="man-profile" class="man-profile" />
+
+      <div class="info-profile">
+        <p>Keziah</p>
+        <div class="rating">
+          <img src="/img/star.png" alt="star" class="star" />
+          <p>4.8</p>
+        </div>
+      </div>
+
+      <div class="info-trip">
+        <p class="places">2 places restantes</p>
+        <div class="price">
+          <img src="/img/leaf (1).png" alt="leaf" class="leaf" />
+          <p>30 €</p>
+        </div>
+        <a href="/vue-detail.html"
+          ><div class="btn">
+            <button class="details-btn">Détails</button>
+          </div></a
+        >
+      </div>
+    </section>
+
+    <section class="trips-2">
+      <div class="horaires">
+        <p class="p-depart">10:00</p>
+        <p>14:00</p>
+      </div>
+
+      <div class="villes">
+        <p class="p-villeDpt">Nantes</p>
+        <p>Paris</p>
+      </div>
+
+      <img src="/img/woman.png" alt="man-profile" class="man-profile" />
+
+      <div class="info-profile">
+        <p>Yasmine</p>
+        <div class="rating">
+          <img src="/img/star.png" alt="star" class="star" />
+          <p>5.0</p>
+        </div>
+      </div>
+
+      <div class="info-trip">
+        <p class="places">3 places restantes</p>
+        <div class="price">
+          <p>35 €</p>
+        </div>
+        <a href="/vue-detail2.html"
+          ><div class="btn">
+            <button class="details-btn">Détails</button>
+          </div></a
+        >
+      </div>
+    </section>
+
+    <section class="trips-3">
+      <div class="horaires">
+        <p class="p-depart">12:00</p>
+        <p>16:00</p>
+      </div>
+
+      <div class="villes">
+        <p class="p-villeDpt">Nantes</p>
+        <p>Paris</p>
+      </div>
+
+      <img src="/img/man.png" alt="man-profile" class="man-profile" />
+
+      <div class="info-profile">
+        <p>Oscar</p>
+        <div class="rating">
+          <img src="/img/star.png" alt="star" class="star" />
+          <p>4.5</p>
+        </div>
+      </div>
+
+      <div class="info-trip">
+        <p class="places">2 places restantes</p>
+        <div class="price">
+          <img src="/img/leaf (1).png" alt="leaf" class="leaf" />
+          <p>25 €</p>
+        </div>
+        <a href="/vue-detail3.html"
+          ><div class="btn">
+            <button class="details-btn">Détails</button>
+          </div></a
+        >
+      </div>
+    </section>
+  </body>
+  <script src="/js/script-vue.js"></script>
+</html>

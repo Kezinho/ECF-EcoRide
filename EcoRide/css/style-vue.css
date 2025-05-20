@@ -1,0 +1,301 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ede7d9;
+  position: relative;
+}
+
+nav {
+  height: 100px;
+  width: 100%;
+  background-color: #61b866;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: DM Sans, sans-serif;
+}
+
+.nav-menu {
+  position: absolute;
+  right: 100px;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  justify-content: space-evenly;
+}
+
+.logo {
+  height: 150px;
+  transition: transform 0.1s;
+  cursor: pointer;
+  position: absolute;
+  left: 15%;
+}
+
+.logo:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.1);
+}
+
+a {
+  font-size: 19px;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #ede7d9;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  height: 150px;
+}
+
+.depart-input {
+  height: 40px;
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 10px;
+  padding-left: 10px;
+  border-bottom: 1px solid #e5e5e5;
+  outline: none;
+  background-color: #ffffff;
+  border: black solid 1px;
+}
+
+.arrivee-input {
+  height: 30px;
+  font-weight: 500;
+  font-size: 14px;
+  height: 40px;
+  border-radius: 10px;
+  padding-left: 10px;
+  border-bottom: 1px solid #e5e5e5;
+  outline: none;
+  border: black solid 1px;
+  background-color: #ffffff;
+}
+
+.date-input {
+  height: 30px;
+  font-weight: 500;
+  font-size: 14px;
+  height: 40px;
+  border-radius: 10px;
+  padding-left: 10px;
+  border: none;
+  border-bottom: 1px solid #e5e5e5;
+  outline: none;
+  background-color: #ffffff;
+  margin-top: 1px;
+  border: black solid 1px;
+}
+
+.passager-input {
+  height: 30px;
+  font-weight: 500;
+  font-size: 14px;
+  height: 40px;
+  border-radius: 10px;
+  padding-left: 10px;
+  border: none;
+  border-bottom: 1px solid #e5e5e5;
+  outline: none;
+  background-color: #ffffff;
+  border: black solid 1px;
+}
+
+.tri {
+  height: 350px;
+  width: 250px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: DM Sans, sans-serif;
+  font-size: 20px;
+}
+
+.filtre {
+  margin: 12px;
+}
+
+.tri-h1 {
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+
+.trips {
+  height: 200px;
+  width: 57%;
+  position: absolute;
+  left: 32%;
+  top: 50%;
+  background-color: #a5d6a7;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  font-family: DM Sans Bold, sans-serif;
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+.trips-2 {
+  height: 200px;
+  width: 57%;
+  position: absolute;
+  left: 32%;
+  top: 90%;
+  background-color: #a5d6a7;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  font-family: DM Sans Bold, sans-serif;
+  font-size: 25px;
+  margin-top: 25px;
+}
+
+.trips-3 {
+  height: 200px;
+  width: 57%;
+  position: absolute;
+  left: 32%;
+  top: 120%;
+  background-color: #a5d6a7;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  font-family: DM Sans Bold, sans-serif;
+  font-size: 25px;
+  margin-top: 90px;
+}
+
+.horaires {
+  margin: 20px;
+}
+
+.p-depart {
+  margin-bottom: 30px;
+}
+
+.villes {
+  margin: 15px;
+  color: #707070;
+}
+
+.p-villeDpt {
+  margin-bottom: 30px;
+}
+
+.man-profile {
+  height: 70px;
+  margin: 40px;
+}
+
+.info-profile {
+  width: 95px;
+}
+.star {
+  height: 25px;
+  margin-right: 11px;
+}
+
+.rating {
+  margin-top: 11px;
+  display: flex;
+}
+
+.info-trip {
+  margin-left: 45px;
+  justify-content: flex-end;
+}
+
+.leaf {
+  height: 25px;
+}
+
+.price {
+  margin-top: 13px;
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn {
+  margin-top: 13px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.details-btn {
+  background-color: #ede7d9;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family: DM Sans, sans-serif;
+  font-size: 15px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 100px;
+  margin-top: 5px;
+}
+
+.details-btn:hover {
+  background-color: #f7fafa;
+}
+
+.details-btn:focus {
+  border-color: #61b866;
+  box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
+  outline: 0;
+}
+
+.places {
+  font-size: 20px;
+  font-family: DM Sans Bold, sans-serif;
+}
+
+@media screen and (min-width: 1275px) {
+  .trips {
+    max-width: 730px;
+    left: 60%;
+    transform: translateX(-50%);
+  }
+
+  .trips-2 {
+    max-width: 730px;
+    left: 60%;
+    transform: translateX(-50%);
+  }
+
+  .trips-3 {
+    max-width: 730px;
+    left: 60%;
+    transform: translateX(-50%);
+  }
+}

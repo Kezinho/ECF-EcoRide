@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style-accueil.css" />
+
+    <title>EcoRide</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <img
+          class="logo"
+          src="/img/ChatGPT_Image_5_mai_2025__13_36_36-removebg-preview.png"
+        />
+        <div class="nav-menu">
+          <a href="/vue.html"> Covoiturages </a>
+          <a href="/form.php"> Connexion </a>
+          <a href="/contact.html"> Contact </a>
+        </div>
+      </nav>
+    </header>
+    <section class="search-block">
+      <div>
+        <img
+          class="main-img"
+          src="/img/Covoiturer aujourd’hui, respirer demain. (1).png"
+          alt="main-img"
+        />
+      </div>
+    </section>
+    <section class="input-block">
+      <div class="inputs">
+        <input type="text" class="depart-input" placeholder="Départ" />
+        <input type="text" class="arrivee-input" placeholder="Arrivée" />
+        <input type="date" class="date-input" placeholder="" />
+        <select name="passager" class="passager-input">
+          <option value="">Nombre de passagers</option>
+          <option value="1-passager">1 passager</option>
+          <option value="2-passagers">2 passagers</option>
+          <option value="3-passagers">3 passagers</option>
+          <option value="4-passagers">4 passagers</option>
+        </select>
+        <a href="/vue.html">
+          <button class="rechercher">Rechercher</button>
+        </a>
+      </div>
+    </section>
+
+    <div class="presentation-container">
+      <h1>QUI SOMMES NOUS ?</h1>
+      <p>
+        EcoRide est une startup engagée pour l’environnement qui facilite le
+        covoiturage écoresponsable. En connectant conducteurs et passagers, nous
+        contribuons à réduire les émissions de CO₂, fluidifier le trafic et
+        encourager une mobilité durable. Rejoignez-nous pour partager la route
+        autrement.
+      </p>
+
+      <div class="carousel">
+        <button class="prev">❮</button>
+        <div class="carousel-track">
+          <img
+            src="/img/67ae1d450f3fdd2b410cb400_65256620e84adc06b1842e88_groupe-covoiturage-trajet-kilometre.jpeg"
+            class="carousel-slide"
+            alt="Image 1"
+          />
+          <img
+            src="/img/woman-charging-car-istock-1354071980-simonskafar_w800.webp"
+            class="carousel-slide"
+            alt="Image 2"
+          />
+          <img
+            src="/img/freepik__the-style-is-candid-image-photography-with-natural__49441.jpeg"
+            class="carousel-slide"
+            alt="Image 3"
+          />
+        </div>
+        <button class="next">❯</button>
+      </div>
+    </div>
+
+    <footer>
+      <p class="p1-footer">contact@ecoride.com</p>
+      <p class="p2-footer">Mentions légales</p>
+    </footer>
+  </body>
+  <script src="/js/script-accueil.js"></script>
+</html>
